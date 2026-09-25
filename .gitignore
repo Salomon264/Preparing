@@ -1,0 +1,41 @@
+# ========== Gradle ==========
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ========== Local config ==========
+local.properties
+
+# ========== IntelliJ / Android Studio ==========
+*.iml
+.idea/
+*.hprof
+captures/
+.externalNativeBuild/
+.cxx/
+.navigation/
+
+# ========== Kotlin ==========
+.kotlin/
+
+# ========== OS ==========
+.DS_Store
+Thumbs.db
+
+# ========== Logs / temp ==========
+*.log
+*.tmp
+*.bak
+
+# ========== Keystore (ВАЖНО!) ==========
+*.jks
+*.keystore
+!debug.keystore
+
+# ========== Build outputs ==========
+*.apk
+*.aab
+*.ap_
+*.dex
