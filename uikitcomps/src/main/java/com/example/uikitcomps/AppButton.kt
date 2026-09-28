@@ -1,5 +1,6 @@
 package com.example.uikitcomps
 
+import androidx.compose.foundation.background
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -12,9 +13,6 @@ fun AppButton(
     modifier: Modifier = Modifier
 ) {
     Button(onClick = onClick, modifier = modifier) {
-        Text(text = text)
+        Text(text = text, modifier = modifier)
     }
 }
-
-// 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
-// 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
